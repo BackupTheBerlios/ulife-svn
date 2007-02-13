@@ -91,7 +91,7 @@ namespace OpenSimLite
 		/// <param name="baseFolder"></param>
 		/// <param name="inventoryFolder"></param>
 		/// <returns></returns>
-		public bool NewAgent(NetworkInfo userInfo, string first, string last, LLUUID baseFolder, LLUUID inventoryFolder)
+		public virtual bool NewAgent(NetworkInfo userInfo, string first, string last, LLUUID baseFolder, LLUUID inventoryFolder)
 		{
 			AgentProfile agent = new AgentProfile();
 			agent.Avatar.FullID = userInfo.User.AgentID;
