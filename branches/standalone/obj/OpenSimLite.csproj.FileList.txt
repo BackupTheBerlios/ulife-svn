@@ -1,8 +1,0 @@
-bin\Debug\OpenSimLite.exe
-bin\Debug\OpenSimLite.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\OpenSimLite.exe
-obj\Debug\OpenSimLite.pdb
-bin\Release\OpenSimLite.exe
-obj\Release\ResolveAssemblyReference.cache
-obj\Release\OpenSimLite.exe
