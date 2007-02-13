@@ -229,7 +229,8 @@ namespace OpenSimLite
 			}
 			catch ( Exception e)
 			{
-				Console.WriteLine(e.Message);
+				Console.WriteLine( e.Message );
+				Console.WriteLine( e.StackTrace );
 				return;
 			}
 			
@@ -349,7 +350,8 @@ namespace OpenSimLite
 			}
 			catch ( Exception e)
 			{
-				Console.WriteLine(e.Message);
+				Console.WriteLine( e.Message );
+				Console.WriteLine( e.StackTrace );
 				return;
 			}
 		}

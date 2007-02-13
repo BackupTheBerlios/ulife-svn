@@ -37,7 +37,7 @@ namespace OpenSimLite
 	/// </summary>
 	public class AgentManager
 	{
-		public Dictionary<libsecondlife.LLUUID,AgentProfile> AgentList;
+		public Dictionary<libsecondlife.LLUUID,AgentProfile> AgentList = new Dictionary<LLUUID,AgentProfile>();
 		private uint _localNumber=0;
 		private Server _server;
 		

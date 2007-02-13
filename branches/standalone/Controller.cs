@@ -56,8 +56,11 @@ namespace OpenSimLite
 			_agentManager = new AgentManager(_viewerServer);
 			_gridManager = new GridManager(_viewerServer, _agentManager);
 			_scene = new SceneGraph(_viewerServer, _agentManager);
+
 			ClientConnection.Grid = _gridManager;
 			ClientConnection.Scene = _scene;
+			ClientConnection.AgentManager = _agentManager;
+
 			_viewerServer.Startup();
 			
 			if(Globals.Instance.StartLoginServer)

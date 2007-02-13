@@ -168,7 +168,7 @@ namespace OpenSimLite
 		{
 			lock(this._sendTerrainSync)
 			{
-				string data_path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory ,@"\layer_data\" );
+				string data_path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory ,@"layer_data" );
 				
 				//send layerdata
 				LayerDataPacket layerpack = new LayerDataPacket();
