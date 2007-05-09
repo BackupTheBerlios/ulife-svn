@@ -7,10 +7,16 @@ namespace Sweeper
     public interface IView
     {
         void StartGame();
-        void SetCurrentPlayer(IPlayer player);
+        void SetCurrentPlayer(Player player);
 
-        void PlayerOutOfTurn(IPlayer player);
+        void PlayerOutOfTurn(Player player);
 
         void GameTied();
+
+        void PointAdded(Player player);
+
+        Slot CreateSlot( bool mine );
+
+        void ShowBoard(List<List<Slot>> board);
     }
 }

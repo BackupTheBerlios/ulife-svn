@@ -4,14 +4,8 @@ using System.Text;
 
 namespace Sweeper
 {
-    public class ConsolePlayer :IPlayer 
+    public class ConsolePlayer : Player 
     {
-        private int m_score;
-        public int Score
-        {
-            get { return m_score; }
-        }
-
         private string m_name;
         public string Name
         {

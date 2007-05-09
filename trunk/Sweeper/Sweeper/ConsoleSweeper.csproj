@@ -7,8 +7,8 @@
     <ProjectGuid>{F0755B27-4FB1-490F-9D54-B1659968944C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sweeper</RootNamespace>
-    <AssemblyName>Sweeper</AssemblyName>
+    <RootNamespace>ConsoleSweeper</RootNamespace>
+    <AssemblyName>ConsoleSweeper</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
