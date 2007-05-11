@@ -1,0 +1,38 @@
+========================================================================
+OpenGrid Started at 08/05/2007 16:46:07
+Main.cs:Startup() - Loading configuration
+Loading Db40Config dll
+Config.cs:InitConfig() - Could not find object in database, loading precompiled defaults
+Config.cs:LoadDefaults() - Please press enter to retain default or enter new settings
+Grid owner [OGS development team]: j
+Default asset server [http://127.0.0.1:8003/]: 
+Key to send to asset server [null]: kk
+Key to expect from asset server [null]: kk
+Default user server [http://127.0.0.1:8002/]: 
+Key to send to user server [null]: kk
+Key to expect from user server [null]: kk
+Key to send to sims [null]: kk
+Key to expect from sims [null]: kk
+Writing out default settings to local database
+Grid settings loaded:
+Grid owner: j
+Default asset server: http://127.0.0.1:8003/
+Key to send to asset server: kk
+Key to expect from asset server: kk
+Default user server: http://127.0.0.1:8002/
+Key to send to user server: kk
+Key to expect from user server: kk
+Key to send to sims: kk
+Key to expect from sims: kk
+Main.cs:Startup() - Connecting to Storage Server
+Storage: Attempting to load OpenGrid.Framework.Data.DB4o.dll
+Storage: Found 4 interfaces.
+Storage: Added IGridData Interface
+Main.cs:Startup() - Starting HTTP process
+BaseHttpServer.cs: Starting up HTTP Server
+Main.cs:Startup() - Starting sim status checker
+
+Enter help for a list of commands
+
+OpenGrid# : BaseHttpServer.cs: StartHTTP() - Spawned main thread OK
+Storage: Unable to find region 1096213093147648 via DB4o Grid Provider

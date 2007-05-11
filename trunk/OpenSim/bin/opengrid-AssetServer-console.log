@@ -1,0 +1,11 @@
+========================================================================
+OpenGrid Started at 08/05/2007 16:46:36
+Main.cs:Startup() - Setting up asset DB
+Main.cs:setupDB() - creation
+Main.cs:Startup() - Starting HTTP process
+BaseHttpServer.cs: Starting up HTTP Server
+BaseHttpServer.cs: StartHTTP() - Spawned main thread OK
+
+Enter help for a list of commands
+
+OpenGrid# : 

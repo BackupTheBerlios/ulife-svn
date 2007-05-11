@@ -1,0 +1,52 @@
+========================================================================
+OpenUser Started at 08/05/2007 16:46:45
+Main.cs:Startup() - Loading configuration
+Loading Db40Config dll
+Config.cs:InitConfig() - Could not find object in database, loading precompiled defaults
+Config.cs:LoadDefaults() - Please press enter to retain default or enter new settings
+Default startup message [Welcome to OGS]: u
+Grid server URL [http://127.0.0.1:8001/]: 
+Key to send to grid server [null]: kk
+Key to expect from grid server [null]: kk
+Writing out default settings to local database
+User settings loaded:
+Default startup message: u
+Grid server URL: http://127.0.0.1:8001/
+Key to send to grid: kk
+Key to expect from grid: kk
+Main.cs:Startup() - Creating user profile manager
+Main.cs:Startup() - Starting HTTP process
+BaseHttpServer.cs: Starting up HTTP Server
+BaseHttpServer.cs: StartHTTP() - Spawned main thread OK
+
+Enter help for a list of commands
+
+OpenUser# : create user
+Creating new user profile
+First name: test
+Last name: loop
+Password
+PasswordOpenUser# : ========================================================================
+OpenUser Started at 08/05/2007 17:41:29
+Main.cs:Startup() - Loading configuration
+Loading Db40Config dll
+Config.cs:InitConfig() - Could not find object in database, loading precompiled defaults
+Config.cs:LoadDefaults() - Please press enter to retain default or enter new settings
+Default startup message [Welcome to OGS]: h
+Grid server URL [http://127.0.0.1:8001/]: 
+Key to send to grid server [null]: kk
+Key to expect from grid server [null]: kk
+Writing out default settings to local database
+User settings loaded:
+Default startup message: h
+Grid server URL: http://127.0.0.1:8001/
+Key to send to grid: kk
+Key to expect from grid: kk
+Main.cs:Startup() - Creating user profile manager
+Main.cs:Startup() - Starting HTTP process
+BaseHttpServer.cs: Starting up HTTP Server
+BaseHttpServer.cs: StartHTTP() - Spawned main thread OK
+
+Enter help for a list of commands
+
+OpenUser# : 

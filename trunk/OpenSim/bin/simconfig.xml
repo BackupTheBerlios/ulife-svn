@@ -1,0 +1,3 @@
+<Root>
+  <Config SimUUID="e790a0789f51479892a71a56d33303e1" SimName="OpenSim test" SimLocationX="997" SimLocationY="996" Datastore="localworld.yap" SimListenPort="9000" SimListenAddress="127.0.0.1" />
+</Root>

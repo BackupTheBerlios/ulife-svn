@@ -1,0 +1,109 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Terrain.BasicTerrain", "OpenSim.Terrain.BasicTerrain\OpenSim.Terrain.BasicTerrain.csproj", "{2270B8FE-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Physics.OdePlugin", "OpenSim.Physics\OdePlugin\OpenSim.Physics.OdePlugin.csproj", "{63A05FE9-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Framework.Console", "OpenSim.Framework.Console\OpenSim.Framework.Console.csproj", "{A7CD0630-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Physics.Manager", "OpenSim.Physics\Manager\OpenSim.Physics.Manager.csproj", "{8BE16150-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.GenericConfig.Xml", "OpenSim.GenericConfig\Xml\OpenSim.GenericConfig.Xml.csproj", "{E88EF749-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Physics.BasicPhysicsPlugin", "OpenSim.Physics\BasicPhysicsPlugin\OpenSim.Physics.BasicPhysicsPlugin.csproj", "{4F874463-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Servers", "OpenSim.Servers\OpenSim.Servers.csproj", "{8BB20F0A-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Physics.PhysXPlugin", "OpenSim.Physics\PhysXPlugin\OpenSim.Physics.PhysXPlugin.csproj", "{988F0AC4-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Framework", "OpenSim.Framework\OpenSim.Framework.csproj", "{8ACA2445-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.RegionServer", "OpenSim.RegionServer\OpenSim.RegionServer.csproj", "{632E1BFD-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.Storage.LocalStorageDb4o", "OpenSim.Storage\LocalStorageDb4o\OpenSim.Storage.LocalStorageDb4o.csproj", "{E1B79ECF-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSim.GridInterfaces.Local", "OpenSim.GridInterfaces\Local\OpenSim.GridInterfaces.Local.csproj", "{546099CD-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLRPC", "XmlRpcCS\XMLRPC.csproj", "{8E81D43C-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSweeper", "..\Sweeper\Sweeper\ConsoleSweeper.csproj", "{F0755B27-4FB1-490F-9D54-B1659968944C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sweeper", "..\Sweeper\Game\Sweeper.csproj", "{8031F64B-20E4-420E-A140-1DC58361DC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSimSweeper", "..\Sweeper\OpenSimSweeper\OpenSimSweeper.csproj", "{376EA29C-3C9D-4032-84DD-BD3416E019B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2270B8FE-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2270B8FE-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2270B8FE-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2270B8FE-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A05FE9-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A05FE9-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A05FE9-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A05FE9-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CD0630-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CD0630-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CD0630-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CD0630-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE16150-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE16150-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE16150-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE16150-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88EF749-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88EF749-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88EF749-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88EF749-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F874463-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F874463-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F874463-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F874463-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB20F0A-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB20F0A-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB20F0A-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB20F0A-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988F0AC4-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988F0AC4-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988F0AC4-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988F0AC4-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACA2445-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACA2445-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACA2445-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACA2445-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E1BFD-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E1BFD-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E1BFD-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E1BFD-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B79ECF-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B79ECF-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B79ECF-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B79ECF-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546099CD-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546099CD-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546099CD-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546099CD-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E81D43C-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E81D43C-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E81D43C-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E81D43C-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0755B27-4FB1-490F-9D54-B1659968944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0755B27-4FB1-490F-9D54-B1659968944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0755B27-4FB1-490F-9D54-B1659968944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0755B27-4FB1-490F-9D54-B1659968944C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8031F64B-20E4-420E-A140-1DC58361DC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8031F64B-20E4-420E-A140-1DC58361DC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8031F64B-20E4-420E-A140-1DC58361DC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8031F64B-20E4-420E-A140-1DC58361DC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376EA29C-3C9D-4032-84DD-BD3416E019B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376EA29C-3C9D-4032-84DD-BD3416E019B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376EA29C-3C9D-4032-84DD-BD3416E019B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376EA29C-3C9D-4032-84DD-BD3416E019B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
