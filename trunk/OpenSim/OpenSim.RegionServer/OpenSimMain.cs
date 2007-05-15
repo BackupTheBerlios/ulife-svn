@@ -274,7 +274,7 @@ namespace OpenSim
             Server.BeginReceiveFrom(RecvBuffer, 0, RecvBuffer.Length, SocketFlags.None, ref epSender, ReceivedData, null);
         }
 
-        private virtual void AddNewClient(Packet packet)
+        protected virtual void AddNewClient(Packet packet)
         {
             UseCircuitCodePacket useCircuit = (UseCircuitCodePacket)packet;
             this.clientCircuits.Add(epSender, useCircuit.CircuitCode.Code);
