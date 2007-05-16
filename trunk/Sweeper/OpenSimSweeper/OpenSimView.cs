@@ -28,8 +28,7 @@ namespace OpenSimSweeper
             
             chatPacket.ChatData.Message = enc.GetBytes("Game started.");
 
-            // m_world.SimChat(null, chatPacket);
-            // Well, we could have, if there was such a thing as broadcast...
+            m_world.SimChat(null, chatPacket);            
         }
 
         public void SetCurrentPlayer(Player player)

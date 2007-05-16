@@ -36,9 +36,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Framework.dll</HintPath>
     </Reference>
+    <Reference Include="OpenSim.Framework.Console, Version=1.0.2692.27699, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Framework.Console.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSim.RegionServer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\opensim\trunk\bin\OpenSim.RegionServer.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Servers, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Servers.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -48,6 +56,9 @@
     <Compile Include="OpenSimGame.cs" />
     <Compile Include="OpenSimView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SweeperLoginServer.cs" />
+    <Compile Include="SweeperPlayer.cs" />
+    <Compile Include="SweeperRegionServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Game\Sweeper.csproj">
