@@ -30,7 +30,15 @@
   <ItemGroup>
     <Reference Include="libsecondlife, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\OpenSim\bin\libsecondlife.dll</HintPath>
+      <HintPath>..\..\..\opensim\trunk\bin\libsecondlife.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.RegionServer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.RegionServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -42,14 +50,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\OpenSim\OpenSim.Framework\OpenSim.Framework.csproj">
-      <Project>{8ACA2445-0000-0000-0000-000000000000}</Project>
-      <Name>OpenSim.Framework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\OpenSim\OpenSim.RegionServer\OpenSim.RegionServer.csproj">
-      <Project>{632E1BFD-0000-0000-0000-000000000000}</Project>
-      <Name>OpenSim.RegionServer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Game\Sweeper.csproj">
       <Project>{8031F64B-20E4-420E-A140-1DC58361DC45}</Project>
       <Name>Sweeper</Name>
