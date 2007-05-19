@@ -9,18 +9,23 @@ namespace OpenSimSweeper
 {
     public class SweeperLoginServer : LoginServer
     {
-        private OpenSimGame m_game;
+        private int maxPlayers = 2;  //for now only two , once we support multiple games this will increase
+        private int currentNumPlayers = 0;
 
-        public SweeperLoginServer(IPEndPoint ep, uint regX, uint regY, OpenSimGame game)
-            : base(null, ep.Address.ToString(), ep.Port, regX, regY, false)
+        public SweeperLoginServer(IPEndPoint ep, uint regX, uint regY)
+            : base(ep.Address.ToString(), ep.Port, regX, regY, false)
         {
-            m_game = game;
         }
 
         protected override bool Authenticate(string first, string last, string passwd)
         {
-            SweeperPlayer player = new SweeperPlayer();
-            return m_game.TryAddPlayer(player);
+            if (currentNumPlayers < maxPlayers)
+            {
+                currentNumPlayers++;
+                return true;
+            }
+
+            return false;
         }
     }
 }

@@ -20,8 +20,6 @@ namespace OpenSimSweeper
             SweeperRegionServer regionServer = new SweeperRegionServer(ep, regX, regY, game);
             regionServer.StartUp();
             
-            SweeperLoginServer loginServer = new SweeperLoginServer( ep, regX, regY, game );
-            loginServer.Startup();
 
             World world = regionServer.LocalWorld;
             

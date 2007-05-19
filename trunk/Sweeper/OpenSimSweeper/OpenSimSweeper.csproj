@@ -30,35 +30,46 @@
   <ItemGroup>
     <Reference Include="libsecondlife, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\opensim\trunk\bin\libsecondlife.dll</HintPath>
+      <HintPath>..\..\OpenSim\bin\libsecondlife.dll</HintPath>
     </Reference>
     <Reference Include="OpenSim.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Framework.dll</HintPath>
+      <HintPath>..\..\OpenSim\bin\OpenSim.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="OpenSim.Framework.Console, Version=1.0.2692.27699, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OpenSim.Framework.Console, Version=1.0.2693.26322, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Framework.Console.dll</HintPath>
+      <HintPath>..\..\OpenSim\bin\OpenSim.Framework.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSim.GenericConfig.Xml, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OpenSim\bin\OpenSim.GenericConfig.Xml.dll</HintPath>
     </Reference>
     <Reference Include="OpenSim.RegionServer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.RegionServer.dll</HintPath>
+      <HintPath>..\..\OpenSim\bin\OpenSim.RegionServer.dll</HintPath>
     </Reference>
     <Reference Include="OpenSim.Servers, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\opensim\trunk\bin\OpenSim.Servers.dll</HintPath>
+      <HintPath>..\..\OpenSim\bin\OpenSim.Servers.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="XMLRPC, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OpenSim\bin\XMLRPC.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OpenSimGame.cs" />
     <Compile Include="OpenSimView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SweeperLoginServer.cs" />
+    <Compile Include="SweeperPacketServer.cs" />
     <Compile Include="SweeperPlayer.cs" />
     <Compile Include="SweeperRegionServer.cs" />
+    <Compile Include="SweeperSimClient.cs" />
+    <Compile Include="SweeperUDPServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Game\Sweeper.csproj">
