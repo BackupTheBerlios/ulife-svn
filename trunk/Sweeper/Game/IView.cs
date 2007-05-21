@@ -17,6 +17,6 @@ namespace Sweeper
 
         Slot CreateSlot( bool mine );
 
-        void ShowBoard(List<List<Slot>> board);
+        void ShowBoard(List<List<ISlot>> board);
     }
 }

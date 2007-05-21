@@ -14,7 +14,7 @@ namespace Sweeper
         private bool m_gameOver;
         private int m_currentTurn;
 
-        private List<List<Slot>> m_board;
+        private List<List<ISlot>> m_board;
         
         public Game(int maxPlayers)
         {
@@ -76,11 +76,11 @@ namespace Sweeper
 
         private void InitializeBoard()
         {
-            m_board = new List<List<Slot>>( 10 );
+            m_board = new List<List<ISlot>>( 10 );
             
             for(int y=0;y<10;y++)
             {
-                List<Slot> row = new List<Slot>();
+                List<ISlot> row = new List<ISlot>();
 
                 for (int x = 0; x < 10;x++ )
                 {
@@ -104,7 +104,7 @@ namespace Sweeper
                 return false;
             }
 
-            Slot slot = m_board[y][x];
+            ISlot slot = m_board[y][x];
            
             if( slot.Hidden )
             {

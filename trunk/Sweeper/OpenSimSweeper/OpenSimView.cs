@@ -53,10 +53,10 @@ namespace OpenSimSweeper
 
         public Slot CreateSlot(bool mine)
         {
-            throw new Exception("The method or operation is not implemented.");
+            m_world.AddNewPrim( );
         }
 
-        public void ShowBoard(List<List<Slot>> board)
+        public void ShowBoard(List<List<ISlot>> board)
         {
             throw new Exception("The method or operation is not implemented.");
         }

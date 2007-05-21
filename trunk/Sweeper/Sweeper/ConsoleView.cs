@@ -67,7 +67,7 @@ namespace Sweeper
             return new Slot( mine );
         }
 
-        public void ShowBoard(List<List<Slot>> board)
+        public void ShowBoard(List<List<ISlot>> board)
         {
             Console.WriteLine("--- BOARD ---");
             Console.WriteLine("Y 0 1 2 3 4 5 6 7 8 9 ");
@@ -76,7 +76,7 @@ namespace Sweeper
                 Console.Write("{0}: ", y);
                 for (int x = 0; x < 10;x++ )
                 {
-                    Slot slot = board[y][x];
+                    ISlot slot = board[y][x];
                     char c = 'M';
                     
                     if( !slot.Mine )

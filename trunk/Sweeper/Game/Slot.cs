@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Sweeper
 {
-    public class Slot
+    public class Slot : ISlot
     {
         private bool m_mine = false;
         public bool Mine

@@ -69,6 +69,7 @@
     <Compile Include="SweeperPlayer.cs" />
     <Compile Include="SweeperRegionServer.cs" />
     <Compile Include="SweeperSimClient.cs" />
+    <Compile Include="SweeperSlot.cs" />
     <Compile Include="SweeperUDPServer.cs" />
   </ItemGroup>
   <ItemGroup>
